@@ -1,0 +1,122 @@
+/* Custom Styles */
+.h1{
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+
+.h2{
+    font-size: larger;
+    color: black;
+}
+
+.h5{
+    font-size: large;
+    color: black;
+}
+
+.italic{
+    color: darkgrey;
+    font-style: italic;
+}
+
+a:hover{
+    color: royalblue;
+}
+
+.post-title{
+color: seagreen;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+  }
+
+/* Image Stuff */
+    .stopfloat {
+        clear:both;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    
+    /* Clear floats after image containers */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+/* Resume stuff */
+    .resumetitle {
+        color: black;
+        font-size: x-large;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .resumecommon{
+        color: black;
+        font-size: large;
+        font-style: normal;
+        font-family: sans-serif;
+    }
+
+    .resumeDate{
+        font-size: medium;
+        font-style: italic;
+
+    }
+
+    /* Tableau */
+    
+    .footer{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    .header{
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        height: 60px;
+        position: top;
+        text-decoration: none;
+        font-size: 18px;
+        background-color: lightblue;
+        color: white;
+        text-align: right;
+        padding-right: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .tableautitle{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 1500;
+        height: 90px;
+        
+    }
+
+    .tableaupos{
+        padding: 75px;
+        top: 20px;
+        left: 10px;
+        right: 10px;
+    }
+
+    .tableauCaption{
+        padding-top: 5px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+    }
